@@ -216,7 +216,7 @@ function renderAcademicos(academico) {
 }
 
 let script = document.createElement("script");
-script.src = "https://ingcivil.uchile.cl/dam/jcr:450b6288-5d8b-48ce-b97d-83aa2d9a7569/";
+script.src = "https://cdn.jsdelivr.net/gh/Rediseno-Web-Ingenieria-Civil/Generador-de-Academicos/academicos-script.js";
 
 // Function to render the main content
 function renderMainContent(jornadas) {
