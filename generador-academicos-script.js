@@ -216,7 +216,7 @@ function renderAcademicos(academico) {
 }
 
 let script = document.createElement("script");
-script.src = "https://cdn.jsdelivr.net/gh/Rediseno-Web-Ingenieria-Civil/Generador-de-Academicos/academicos-script.js";
+script.src = "https://cdn.jsdelivr.net/gh/Rediseno-Web-Ingenieria-Civil/Generador-de-Academicos@1.0.0/academicos-script.js";
 
 // Function to render the main content
 function renderMainContent(jornadas) {
