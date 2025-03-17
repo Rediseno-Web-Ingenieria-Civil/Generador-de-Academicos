@@ -182,6 +182,9 @@ function renderAcademicos(academico) {
         jornada_html = `<div>${academico.Jornada}</div>`;
         if (["Completa", "Parcial"].includes(academico.Jornada)) {
             jornada_html = `<div>Jornada ${academico.Jornada}</div>`;
+        }
+        else if (["Externo"].includes(academico.Jornada)) {
+            jornada_html = `<div>Jornada Parcial</div>`;
         }        
     }
 
