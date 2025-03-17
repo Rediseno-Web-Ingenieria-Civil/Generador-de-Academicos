@@ -1,3 +1,7 @@
+// Academicos script
+let script = document.createElement("script");
+script.src = "https://cdn.jsdelivr.net/gh/Rediseno-Web-Ingenieria-Civil/Generador-de-Academicos@1.1.0/academicos-script.js";
+
 // File and sheet details
 const sheetName = 'Equipo DIC';
 
@@ -217,9 +221,6 @@ function renderAcademicos(academico) {
                 </div>
 `;
 }
-
-let script = document.createElement("script");
-script.src = "https://cdn.jsdelivr.net/gh/Rediseno-Web-Ingenieria-Civil/Generador-de-Academicos@1.0.0/academicos-script.js";
 
 // Function to render the main content
 function renderMainContent(jornadas) {
